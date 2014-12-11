@@ -1,0 +1,46 @@
+.flow-start{
+	background:url('./icon/type.startevent.none.png') no-repeat top left;
+}
+.flow-end{
+	background:url('./icon/type.endevent.none.png') no-repeat top left;
+}
+.flow-task-user{
+	background:url('./icon/type.user.png') no-repeat top left;
+}
+.flow-task-manual{
+	background:url('./icon/type.manual.png') no-repeat top left;
+}
+.flow-task-service{
+	background:url('./icon/type.service.png') no-repeat top left;
+}
+.flow-task-script{
+	background:url('./icon/type.script.png') no-repeat top left;
+}
+.flow-task-mail{
+	background:url('./icon/type.send.png') no-repeat top left;
+}
+.flow-task-receive{
+	background:url('./icon/type.mail.png') no-repeat top left;
+}
+.flow-task-business{
+	background:url('./icon/type.business.rule.png') no-repeat top left;
+}
+.flow-task-subprocess{
+	background:url('./icon/type.subprocess.collapsed.png') no-repeat top left;
+}
+.flow-task-call{
+	background:url('./icon/callactivity.png') no-repeat top left;
+}
+.flow-link-parallel{
+	background:url('./icon/type.gateway.parallel.png') no-repeat top left;
+}
+.flow-link-exclusive{
+	background:url('./icon/type.gateway.exclusive.png') no-repeat top left;
+}
+.flow-event-time{
+	background:url('./icon/timer.png') no-repeat top left;
+}
+.flow-event-error{
+	background:url('./icon/error.png') no-repeat top left;
+}
+

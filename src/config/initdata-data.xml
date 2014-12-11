@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <pojo name="org">
+        <sql>id_f,name_f,order_f,status_f/1,'系统内置部门',1,1</sql>
+    </pojo>
+    <pojo name="user">
+        <sql>id_f,name_f,no_f,pwd_f,org_f,sex_f/1,'管理员','admin','c4ca4238a0b923820dcc509a6f75849b',1,0</sql>
+    </pojo>
+<!--    <pojo name="permission">-->
+<!--    	 <sql>id_f,name_f,desc_f/1,'我的工作台','我的工作台权限'</sql>	-->
+<!--         <sql>id_f,name_f,desc_f/2,'系统管理','系统管理权限'</sql>	-->
+<!--         <sql>id_f,name_f,desc_f/3,'流程管理','流程管理权限'</sql>	-->
+<!--    </pojo>-->
+<!--    <pojo name="role">-->
+<!--        <sql>id_f,name_f,desc_f,use_f/1,'超级管理员','管理组织结构，配置权限等操作',1</sql>-->
+<!--        <sql>id_f,name_f,desc_f,use_f/2,'普通员工','普通操作',1</sql>-->
+<!--        <sql>id_f,name_f,desc_f,use_f/3,'人事经理','人事经理',1</sql>-->
+<!--    </pojo>-->
+<!--    <pojo name="Role2Permission">-->
+<!--        <sql>id_f,role_f,permission_f/1,1,1</sql>-->
+<!--        <sql>id_f,role_f,permission_f/2,1,2</sql>-->
+<!--        <sql>id_f,role_f,permission_f/3,1,3</sql>-->
+<!--        <sql>id_f,role_f,permission_f/4,2,1</sql>-->
+<!--        <sql>id_f,role_f,permission_f/5,3,1</sql>-->
+<!--    </pojo>-->
+<!--    <pojo name="User2Role">-->
+<!--        <sql>id_f,user_f,role_f/1,1,1</sql>-->
+<!--        <sql>id_f,user_f,role_f/2,2,2</sql>-->
+<!--        <sql>id_f,user_f,role_f/3,3,3</sql>-->
+<!--    </pojo>-->
+<!--    -->
+<!--    <pojo name="menu">-->
+<!--    	<sql>id_f,name_f,permission_f/11,'我的工作台',1</sql> 模块 -->
+<!--    		<sql>id_f,name_f,pid_f,url_f/1101,'签收任务',11,'taskPage.htm?sign'</sql>-->
+<!--    		 <sql>id_f,name_f,pid_f,url_f/1102,'我的待办',11,'taskPage.htm?toDo'</sql>-->
+<!--        	 <sql>id_f,name_f,pid_f,url_f/1103,'已办任务',11,'taskPage.htm?hasToDo'</sql>-->
+<!--	         <sql>id_f,name_f,pid_f,url_f/1104,'已办结任务',11,'taskPage.htm?gone'</sql>-->
+<!--	         <sql>id_f,name_f,pid_f/1105,'工作流程',11</sql>-->
+<!--	         	<sql>id_f,name_f,pid_f,url_f,use_f/110401,'请假流程',1105,'leavePro.htm?viewTask_',1</sql>-->
+<!--        <sql>id_f,name_f,permission_f/101,'系统管理',2</sql> 模块 -->
+<!--        	 <sql>id_f,name_f,pid_f,url_f/10101,'附件管理',101,'attach.htm?attachPage'</sql>-->
+<!--        	 <sql>id_f,name_f,pid_f,url_f,use_f/10102,'流程菜单',101,'menu.htm?page',1</sql>-->
+<!--	         <sql>id_f,name_f,pid_f,url_f/10103,'图标管理',101,'icon.htm?icon'</sql>-->
+<!--	         <sql>id_f,name_f,pid_f,url_f/10104,'swf管理',101,'icon.htm?swf'</sql>-->
+<!--	         <sql>id_f,name_f,pid_f,url_f/10105,'角色管理',101,'role.htm?page'</sql>-->
+<!--	         <sql>id_f,name_f,pid_f,url_f/10106,'权限管理',101,'permission.htm?page'</sql>-->
+<!--	         <sql>id_f,name_f,pid_f,url_f/10107,'组织结构',101,'user.htm?showPage'</sql>-->
+<!---->
+<!--        <sql>id_f,name_f,permission_f/102,'流程管理',3</sql>-->
+<!--        	<sql>id_f,name_f,pid_f,url_f/10201,'表单管理',102,'customform.htm?viewPage'</sql>-->
+<!--       		<sql>id_f,name_f,pid_f,url_f/10202,'流程管理',102,'process.htm?page_'</sql>-->
+<!--    </pojo>-->
+</data>

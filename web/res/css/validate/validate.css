@@ -1,0 +1,22 @@
+label.required:before {
+	content:"*";
+	color:red;
+	font-family:"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+div.required:before {
+	content:"*";
+	color:red;
+	font-family:"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+.ok {
+	background:url("valid.gif") no-repeat;
+	padding-left:16px;
+}
+.error {
+	color:#d00;
+	text-transform:none;
+	margin-left:6px;
+	font-weight:bold;
+	word-spacing: 0.125em;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}

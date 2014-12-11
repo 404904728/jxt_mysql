@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="ScoreService">  
+    <description>ScoreService</description>  
+    <schema schemaNamespace="http://score.interface.hmq"/>
+    <parameter name="ServiceObjectSupplier">  
+    	org.apache.axis2.extensions.spring.receivers.SpringAppContextAwareObjectSupplier 
+    </parameter>  
+    <parameter name="SpringBeanName">scoreService</parameter>    
+    <operation name="getMessage">
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" >
+        </messageReceiver>  
+    </operation>
+    <operation name="importScore">  
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" >
+        </messageReceiver>  
+    </operation>
+</service>  

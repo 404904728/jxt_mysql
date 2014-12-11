@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <pojo name="org">
+        <sql>id_f,name_f,order_f,status_f,type_f/2,'成都实验7中',2,1,0</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/3,'小学部',3,2,1,1</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/4,'初中部',4,2,1,1</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/5,'高中部',5,2,1,1</sql>
+        
+        <!-- 2014.03.11 增加-->
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/6,'高一',1,5,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/7,'高二',2,5,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/8,'高三',3,5,1,2</sql>
+        
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/9,'初一',1,4,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/10,'初二',2,4,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/11,'初三',3,4,1,2</sql>
+        
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/12,'一年级',1,3,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/13,'二年级',2,3,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/14,'三年级',3,3,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/15,'四年级',4,3,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/16,'五年级',5,3,1,2</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/17,'六年级',6,3,1,2</sql>
+        
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/18,'2013级1班',1,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/19,'2013级2班',2,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/20,'2013级3班',3,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/21,'2013级4班',4,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/22,'2013级5班',5,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/23,'2012级6班',6,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/24,'2012级7班',7,6,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/25,'2012级8班',8,6,1,3</sql>
+        
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/26,'2012级1班',1,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/27,'2012级2班',2,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/28,'2012级3班',3,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/29,'2012级4班',4,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/30,'2012级5班',5,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/31,'2012级6班',6,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/32,'2012级7班',7,7,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/33,'2012级8班',8,7,1,3</sql>
+        
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/34,'2011级1班',1,8,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/35,'2011级2班',2,8,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/36,'2011级3班',3,8,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/37,'2011级4班',4,8,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/38,'2011级5班',5,8,1,3</sql>
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/39,'2011级6班',6,8,1,3</sql>
+        
+        <!-- 2014.4.10 调整教职工组织结构 -->
+        <sql>id_f,name_f,order_f,parent_f,status_f,type_f/500,'学校管理组',1,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/501,'中学语文组',2,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/502,'中学数学组',3,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/503,'中学英语组',4,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/504,'中学物理组',5,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/505,'中学化学组',6,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/506,'中学生物组',7,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/507,'中学历史组',8,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/508,'中学地理组',9,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/509,'中学政治组',10,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/510,'中学信息组',11,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/511,'中学音美组',12,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/512,'中学体育组',13,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/513,'校长办',14,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/514,'中学教务处',15,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/515,'中学学生处',16,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/516,'研修室',17,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/517,'财务室',18,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/518,'学校办公室',19,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/519,'后勤管理中心',20,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/520,'小学学生处',21,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/521,'小学教导处',22,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/522,'小学语文组',23,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/523,'小学英语组',24,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/524,'小学艺体组',25,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/525,'小学数学组',26,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/526,'小学美术组',27,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/527,'小学信息科学组',28,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/528,'现在教育技术中心',29,2,1,4</sql>
+		<sql>id_f,name_f,order_f,parent_f,status_f,type_f/529,'招生宣传办公室',30,2,1,4</sql>
+        
+    </pojo>
+    <pojo name="studentInfo">
+       <sql>id_f,no_f,name_f,org_f,pwd_f/1,'stu','王小二',4,'c4ca4238a0b923820dcc509a6f75849b'</sql>
+    </pojo>
+     <pojo name="teacherInfo">
+       <sql>id_f,no_f,name_f,org_f,pwd_f/1,'tea','王大二',4,'c4ca4238a0b923820dcc509a6f75849b'</sql>
+    </pojo>
+    <pojo name="user">
+       
+    </pojo>
+    <pojo name="permission">
+    	 <sql>id_f,name_f,desc_f/1,'学生信息','学生信息一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/2,'考勤管理','考勤管理一级菜单权限'</sql>	
+         <sql>id_f,name_f,desc_f/3,'请假管理','请假管理一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/4,'成绩管理','成绩管理一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/5,'课程表管理','课程表管理一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/6,'通知管理','班级通知一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/7,'相册管理','相册管理一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/8,'教师心语','教师心语一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/9,'教师通讯录','教师通讯录一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/10,'私信留言','私信留言一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/11,'设备报修','设备报修一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/12,'校内通告','校内通告一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/13,'系统管理','系统管理一级菜单权限'</sql>
+         <sql>id_f,name_f,desc_f/14,'班级通知','班级通知菜单权限'</sql>
+		<sql>id_f,name_f,desc_f/15,'教务处通知','教务处通知菜单权限'</sql>
+		<sql>id_f,name_f,desc_f/16,'学生处通知','学生处通知菜单权限'</sql>
+		<sql>id_f,name_f,desc_f/17,'全校通告','全校通告菜单权限'</sql>
+		<sql>id_f,name_f,desc_f/18,'设备维修查收','设备维修查收操作权限'</sql>
+		<sql>id_f,name_f,desc_f/19,'作业通知','作业通知操作权限'</sql>
+    </pojo>
+    
+    <pojo name="role">
+        <sql>id_f,name_f,desc_f,use_f/1,'超级管理员','管理组织结构，配置权限等操作',1</sql>
+    </pojo>
+    <pojo name="Role2Permission">
+        <sql>id_f,role_f,permission_f/1,1,1</sql>
+        <sql>id_f,role_f,permission_f/2,1,2</sql>
+        <sql>id_f,role_f,permission_f/3,1,3</sql>
+        <sql>id_f,role_f,permission_f/4,1,4</sql>
+        <sql>id_f,role_f,permission_f/5,1,5</sql>
+        <sql>id_f,role_f,permission_f/6,1,6</sql>
+        <sql>id_f,role_f,permission_f/7,1,7</sql>
+        <sql>id_f,role_f,permission_f/8,1,8</sql>
+        <sql>id_f,role_f,permission_f/9,1,9</sql>
+        <sql>id_f,role_f,permission_f/10,1,10</sql>
+       	<sql>id_f,role_f,permission_f/11,1,11</sql>
+        <sql>id_f,role_f,permission_f/12,1,12</sql>
+        <sql>id_f,role_f,permission_f/13,1,13</sql>
+        <sql>id_f,role_f,permission_f/14,1,14</sql>
+		<sql>id_f,role_f,permission_f/15,1,15</sql>
+		<sql>id_f,role_f,permission_f/16,1,16</sql>
+		<sql>id_f,role_f,permission_f/17,1,17</sql>
+		<sql>id_f,role_f,permission_f/18,1003,18</sql>
+    </pojo>
+    <pojo name="User2Role">
+        <sql>id_f,user_f,role_f/1,1,1</sql>
+    </pojo>
+    <pojo name="menu">
+        <sql>id_f,name_f,permission_f,url_f,icon_f,order_f/101,'系统管理',13,'menuPage.htm?systemPage','icon-cogs',13</sql>
+	         <sql>id_f,name_f,pid_f,url_f/10103,'教师信息',101,'user.htm?showPage'</sql>
+	         <sql>id_f,name_f,pid_f,url_f/10105,'学生信息',101,'user.htm?showStudent'</sql>
+	         <sql>id_f,name_f,pid_f,url_f/10101,'角色管理',101,'menuPage.htm?roleInfoPage'</sql>
+	         <sql>id_f,name_f,pid_f,url_f/10102,'权限管理',101,'permission.htm?page'</sql>
+        	 <sql>id_f,name_f,pid_f,url_f/10104,'附件管理',101,'attach.htm?attachPage'</sql>
+        	 <sql>id_f,name_f,pid_f,url_f/10106,'科目管理',101,'menuPage.htm?subjectInfoPage'</sql>
+        <sql>id_f,name_f,pid_f,url_f/10107,'短信管理',101,'smsManage.htm?page'</sql>
+		<sql>id_f,name_f,permission_f,url_f,icon_f,order_f/102,'学生信息',1,'menuPage.htm?studentInfoPage','icon-group',1</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/103,'考勤管理',2,'menuPage.htm?checkManage','icon-film',2</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/104,'请假管理',3,'menuPage.htm?leaveInfo','icon-comment',3</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/105,'成绩管理',4,'menuPage.htm?cjManageInfoPage','icon-bookmark-empty',4</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/106,'课程表管理',5,'',5</sql>
+        <sql>id_f,name_f,permission_f,url_f,icon_f,order_f/107,'班级通知',6,'menuPage.htm?noticeInfoPage','icon-bullhorn',6</sql>
+			<sql>id_f,name_f,pid_f,url_f/10701,'收件箱',107,'menuPage.htm?noticereceivePag'</sql>
+			<sql>id_f,name_f,pid_f,permission_f,url_f/10702,'作业通知',107,19,'menuPage.htm?noticeInfoPage&amp;type=0'</sql>
+        	<sql>id_f,name_f,pid_f,permission_f,url_f/10703,'班级通知',107,14,'menuPage.htm?noticeInfoPage&amp;type=1'</sql>
+			<sql>id_f,name_f,pid_f,permission_f,url_f/10704,'教务处通知'107,15,'menuPage.htm?noticeInfoPage&amp;type=2'</sql>
+			<sql>id_f,name_f,pid_f,permission_f,url_f/10705,'学生处通知',107,16,'menuPage.htm?noticeInfoPage&amp;type=3'</sql>
+			<sql>id_f,name_f,pid_f,permission_f,url_f/10706,'校内通告',107,17,'menuPage.htm?noticeInfoPage&amp;type=4'</sql>
+        
+        <sql>id_f,name_f,permission_f,url_f,order_f/108,'相册管理',7,'',7</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/109,'教师心语',8,'menuPage.htm?teachertopic','icon-heart',8</sql>
+        <sql>id_f,name_f,permission_f,url_f,icon_f,order_f/110,'教师通讯录',9,'menuPage.htm?teacherCommPage','icon-book',9</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/111,'私信留言',10,'menuPage.htm?privateLetter','icon-envelope',10</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/112,'设备报修',11,'menuPage.htm?equiRepair','icon-legal',11</sql>
+        <sql>id_f,name_f,permission_f,url_f,order_f/113,'校内通告',12,'',12</sql>
+
+    </pojo>
+</data>

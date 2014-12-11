@@ -1,0 +1,209 @@
+/*
+ * Description: 标准化浏览器的样式
+ *	 - 	《超越CSS：Web设计艺术精髓》 P.157
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0;
+} */
+
+/**
+*
+********************************************************************************
+*                                       form样式
+*********************************************************************************
+*/
+table.form {
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	border-left: 1px solid #BAD7E7;
+	border-top: 1px solid #BAD7E7;
+	margin-bottom: 5px;
+}
+
+table.form tr {
+	line-height: 24px;
+	text-align: left;
+	color: #000;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	padding-left: 10px;
+	background: #FFF
+}
+
+table.form td {
+	padding: 0px;
+	line-height: 25px;
+	text-align: left;
+	color: #000;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	background: #FFFFFF;
+}
+
+table.form th {
+	padding: 2px;
+	line-height: 25px;
+	text-align: right;
+	padding-right: 10px;
+	color: #0774AF;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	background-repeat: repeat-x;
+	background-position: 0 -128px;
+	font-weight: normal;
+}
+
+table.form span {
+	color: red;
+	font-weight: bold;
+}
+
+table.form th.mid {
+	padding: 3px;
+	line-height: 24px;
+	text-align: center;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	font-weight: normal;
+}
+
+table.form input[type=text] {
+	height: 90%;
+	width: 99%
+}
+
+table.form input:focus {
+	background-color: #e9f2ff;
+}
+
+table.form input:hover {
+	background-color: #e9f2ff;
+}
+
+table.form input:blur {
+	background-color: white;
+}
+
+table.form a {
+	color: #955B00;
+	margin-left: 10px;
+}
+
+table.form a:link {
+	color: #955B00;
+}
+
+table.form a:visited {
+	color: #955B00;
+}
+
+table.form a:hover {
+	color: #FF000;
+}
+
+table.form a:active {
+	color: #FF000;
+}
+
+label.error {
+	color: red;
+	font-weight: bold;
+	display: none;
+}
+
+/**
+*
+********************************************************************************
+*                                       list样式
+*********************************************************************************
+*/
+table.tableList {
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	border-left: 1px solid #BAD7E7;
+	border-top: 1px solid #BAD7E7;
+	margin-bottom: 5px;
+}
+table.tableList tr {
+	line-height: 24px;
+	text-align: left;
+	color: #000;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	padding-left: 10px;
+	/**background: #FFF**/
+}
+
+table.tableList th {
+	padding: 3px;
+	line-height: 25px;
+	text-align: center;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	/*background: #a5d3eb;
+	color: #FFF;*/
+	font-weight: normal;
+}
+
+table.tableList td {
+	padding: 3px;
+	line-height: 25px;
+	text-align: left;
+	color: #000;
+	border-right: 1px solid #BAD7E7;
+	border-bottom: 1px solid #BAD7E7;
+	word-break: break-all;
+	overflow: hidden;
+}
+
+table.tableList td.trim {
+	white-space: nowrap;
+	word-break: keep-all;
+	text-overflow: ellipsis;
+}
+
+table.tableList td.left {
+	text-align: left;
+}
+
+table.tableList td.right {
+	text-align: right;
+}
+
+table.tableList th.center,table.form th.center {
+	text-align: center;
+}
+
+table.tableList table p {
+	color: #565656;
+	padding: 0px;
+	margin: 0px;
+	text-indent: 25px;
+}
+
+table.tableList a {
+	color: #955B00;
+	/**margin-left: 10px;**/
+}
+
+table.tableList a:link {
+	color: #955B00;
+}
+
+table.tableList a:visited {
+	color:blue;
+}
+
+table.tableList a:hover {
+	color:red;
+}
+
+table.tableList a:active {
+	color: #FF000;
+}

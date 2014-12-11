@@ -1,0 +1,311 @@
+* { tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: rgba(0,0,0,0); }
+body { background-color: #f7f2ed; margin: 0;}
+a:link{color: #2b61c0; text-decoration:none;}
+a:visited{color: #2b61c0; text-decoration:none;}
+/*body { font-family: Helvetica; background-color: #f6f6f6; margin: 0;padding: 0;}*/
+h1{color:#222; text-indent:0px;font-size:20px; line-height: 25px;}
+h2{color:#222; text-indent:0px;font-size:17px; line-height: 25px;}
+h3{color:#222; text-indent:0px;font-size:17px; line-height: 25px;}
+#borderLogo{
+  height: 50px;
+  border-bottom: 1px #c5c5c5 solid;
+  margin: 0 16px 0 16px;
+}
+#borderLogo .logoImg{
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 134px 18px;
+}
+.main { min-width: 280px; margin-left:16px; margin-right: 16px; font-family: "黑体"; }
+.text { line-height: 25px; text-align: justify; }
+.text a, p a{text-decoration:none;border-bottom: 1px dashed #5374c8;color: #5374c8;}
+.title { font-weight: bold; margin-top: 30px; margin-bottom: 10px; }
+.src { font-weight: bold; color: #aaaaaa; }
+.huodong { text-decoration:none; TEXT-INDENT:2em; line-height:24px; text-align:justify; }
+#huodong a:visited { color:black; }
+#huodong a:link { color:black; }
+#huodong a:hover { color:black; }
+#huodong a:active { color:black; }
+.fontSize1 .title { font-size:20px; }
+.fontSize1 .text { font-size:15px; }
+.fontSize1 .src { font-size:11px; }
+.fontSize2 .title { font-size:22px; }
+.fontSize2 .text { font-size:17px; }
+.fontSize2 .src { font-size:13px; }
+.fontSize3 .title { font-size:24px; }
+.fontSize3 .text { font-size:19px; }
+.fontSize3 .src { font-size:15px; }
+.fontSize4 .title { font-size:26px; }
+.fontSize4 .text { font-size:21px; }
+.fontSize4 .src { font-size:16px; }
+.showMore:active { background-color:#f7f2ed; }
+#showMore.touchstart { background:-moz-linear-gradient(left, rgb(255, 255, 255) 0, rgb(220, 231, 244) 5%, rgb(220, 231, 244) 93%, rgb(255, 255, 255) 100%); background:-webkit-linear-gradient(left, #fff 0%, #DCE7F4 5%, #DCE7F4 93%, #fff 100%); background:-webkit-gradient(linear, left top, right bottom, color-stop(0, #fff), color-stop(0.05, #DCE7F4), color-stop(0.93, #DCE7F4), color-stop(1, #fff)); }
+#showMore .showMore { display:block; cursor:pointer; text-align:left; width:148px; height:32px; line-height:32px; text-indent:38px; margin:0 auto; text-decoration:none; color:#6899DA; text-shadow:2px 0px 0px #fff; outline:none; white-space:nowrap; position:relative; overflow:hidden; padding:10px 30px; background:url(http://mat1.gtimg.com/www/apps/images/more_icon2.png) no-repeat 45px 17px; -moz-background-size:18px 19px; -webkit-background-size:18px 19px; -o-background-size:18px 19px; -ms-background-size:18px 19px; background-size:18px 19px; background:url(http://mat1.gtimg.com/www/apps/images/more_icon3.png) no-repeat 15px 9px\9; *background:url(http://mat1.gtimg.com/www/apps/images/more_icon3.png) no-repeat 15px 9px;
+*line-height:16px;
+*padding:10px 30px 10px 0;
+line-height:16px\9; padding:10px 30px 10px 0\9; }
+.preLoad { position:relative; display:block; margin:1em auto; overflow:hidden; border:1px solid #dedada; background:#ede9e6; }
+.preLoad div.tip { position:absolute; z-index:11; bottom:5px; right:7px; color:#B7B7B7; font-style:italic; font-size: 14px; text-shadow: 1px 1px 1px rgba(255,255,255,.8); -webkit-text-shadow: 1px 1px 1px rgba(255,255,255,.8); }
+.preLoad div.img { position: relative; z-index:12; }
+#Comment { margin-bottom:24px; display: none; }
+.c-title { border-top: solid 1px #cacdd0; margin-bottom:5px; padding:7px 10px 7px 22px; background:#eae7e5 url(http://mat1.gtimg.com/www/images/newsapp/wechat/comment-icon-red.png) no-repeat 5px center; -webkit-background-size:14px 13px }
+.c-list, .comment-list li { padding:0; margin:0; list-style:none; }
+.c-list li { position:relative; padding:12px 3px; border-bottom:1px solid #dedede; line-height:120%; min-height:40px; }
+.c-content { color:#222; margin-left:48px; }
+.c-icon { position:absolute; top:10px; left:3px; width: 40px; height: 40px; background:url(http://mat1.gtimg.com/www/images/newsapp/wechat/comment_boy_default_head_img.png) no-repeat center center; -webkit-background-size:40px 40px }
+.c-user { color:#043872 }
+.c-content em { color:#4d6888; font-style:normal }
+.c-user img { vertical-align:text-top; }
+.c-​​alias { font-size:13px; color:#818791 }
+.c-date { position: absolute; top:12px; right:5px; color:#818791; font-size:13px; }
+.c-content span { color:#999; }
+.c-p { line-height:150% }
+.showMoreHide { display:none }
+
+#imgdownload { margin:50px auto 20px; display:block; text-decoration:none; position:relative; font-size:17px; font-family: "黑体"; visibility:hidden; }
+#imgdownload div.progress-tip { position:absolute; width: 100%; height:40px; color:#444; left:0px; top:52px; text-align: center;}
+#imgdownload span { display:inline-block; }
+#imgdownload .down-icon {  width:25px; height:25px;position: relative; top: -3px; background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/progressDownloadBtnNewMQQ.png) no-repeat; background-size:25px auto; background-position: center; }
+#imgdownload .down-text { line-height:40px;font-weight: bold;margin-left: 5px;font-family: Helvetica,"黑体"}
+#imgdownload div.progress { height:40px; border-radius: 5px; border:0;}
+#imgdownload.client_new_tips .down-icon { background:url(http://mat1.gtimg.com/www/images/newsapp/newsshare/weixin_icon_news.png) no-repeat;background-size: 25px;}
+#imgdownload.client_new_tips div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#53ACFA),to(#4291DC));}
+#imgdownload.client_new_tips .down-text { color:#FFF }
+#imgdownload.client_open_tips .down-icon { background: url(http://mat1.gtimg.com/www/images/newsapp/newsshare/weixin_icon_news.png) no-repeat;background-size: 25px;}
+#imgdownload.client_open_tips div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#67CD5D),to(#37B728));}
+#imgdownload.client_open_tips .down-text { color:#FFF }
+#imgdownload.client_new_install .down-icon { background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/download_success.png) no-repeat; background-size:35px 27px;width: 35px;height: 60px;background-position: center;}
+#imgdownload.client_new_install div.progress { background:#FF6600;height: 60px;}
+#imgdownload.client_new_install .down-text { color:#FFF;line-height: 0;text-align: left;}
+#imgdownload.client_new_install .down-text .down-text1{font-size: 16px;line-height: 20px;float: none;} 
+#imgdownload.client_new_install .down-text .down-text2{font-size: 16px;line-height: 20px;float: none;}
+#imgdownload.client_new_install .progress-tip{height: 60px;line-height: 60px;}
+
+#imgdownload.client_new_downloading .down-icon { background-position:0px -25px }
+#imgdownload.client_new_downloading div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#53ACFA),to(#4291DC));   }
+#imgdownload.client_new_downloading .down-text { color:#FFF }
+#imgdownload.client_new_downloading div.progress-value { position:absolute; left:0; top:52px; background: -webkit-gradient(linear, left top,left bottom, from(#61c4fc),to(#5bbaf1)); height:40px; border-radius:5px; width:90%;}
+#imgdownload.client_new_downloading div.progress-value { animation-name:animate-progress; animation-iteration-count:1; animation-timing-function:linear; animation-duration: 20s; -webkit-animation-name:animate-progress; -webkit-animation-iteration-count:1; -webkit-animation-timing-function:linear; -webkit-animation-duration:20s; }
+@-webkit-keyframes animate-progress {  0% {
+width: 0;
+}
+ 100% {
+width: 90%;
+}
+}
+/*bottom*/
+#imgdownload #DownloadTooltips { position: relative; color:#444; background: #ffffff; border: 1px solid #babbbb; padding: 10px 0; height:20px; border-radius: 5px; margin:0 auto 10px; z-index:55; text-align:center; font-family: "黑体"; }
+
+#imgdownload #DownloadTooltips .open_comment_tag{position: absolute;background-color: #348CD4;color:#fff;height: 18px;line-height: 18px;width: 60px;text-align: center;font-size: 12px;top:-12px;left: -1px;}
+#imgdownload #DownloadTooltips .open_comment_img_div{position: absolute;top:2px;left: 10px;height: 30px;width: 30px;/*background: url(http://mat1.gtimg.com/www/images/newsapp/aiAnswer/ranking/answer_header_placeholder_small.png) no-repeat;background-size: 30px;*/}
+#imgdownload #DownloadTooltips .open_comment_img_mask{position: absolute;top:0;left: 0;height: 30px;width: 30px;background: url(http://mat1.gtimg.com/www/images/newsapp/mqq/comment_cover.png) no-repeat;background-size: 30px;}
+#imgdownload #DownloadTooltips .open_comment_img_div img{display: block;position: absolute;top:0;left: 0;height: 30px;width: 30px;border-radius: 3px;}
+#imgdownload #DownloadTooltips .open_comment_p{margin: 0 5px 0 48px;padding: 0; font-size: 15px;line-height: 20px;text-align: left;}
+#imgdownload #DownloadTooltips .open_comment_nick{color: #444444;font-weight: bold;display: inline;}
+#imgdownload #DownloadTooltips .open_comment_con{color: #444444;display: inline;}
+#imgdownload .down-text span{display: inline-block;height: 40px;line-height: 40px;}
+#imgdownload .down-text span.less-comment{background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/comment_chili_v2.png) no-repeat;background-size: 11px 16px;background-position: center right;padding-right: 11px;}
+#imgdownload .down-text span.more-comment{background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/comment_2chili_v2.png) no-repeat;background-size: 18px 16px;background-position: center right;padding-right: 18px;}
+
+
+#imgdownload.client_video_download_video .down-icon { width:25px; height:25px; background:url(http://mat1.gtimg.com/www/images/newsapp/wechat/weixin_icon_vedio.png) no-repeat; background-size:25px auto; margin:5px 0 0 40px; }
+#imgdownload.client_video_download_video  div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#53adfb),to(#4291dd)); border:1px solid #5faddc; }
+#imgdownload.client_video_download_video .down-text { color:#FFF }
+
+/*视频样式*/
+#imgdownload.client_video_new_tips .down-icon { background:url(http://mat1.gtimg.com/www/images/newsapp/wechat/wechat_video_icon_v2.png) no-repeat;background-size: 25px;}
+#imgdownload.client_video_new_tips div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#B5D4F7),to(#AFD0F7));   }
+#imgdownload.client_video_new_tips .down-text { color:#16375D }
+#imgdownload.client_video_new_install .down-icon { background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/download_success.png) no-repeat; background-size:35px 27px;width: 35px;height: 60px;background-position: center;}
+#imgdownload.client_video_new_install div.progress { background:#FF6600;height: 60px;}
+#imgdownload.client_video_new_install .down-text { color:#FFF;line-height: 0;text-align: left;}
+#imgdownload.client_video_new_install .down-text .down-text1{font-size: 16px;line-height: 20px;float: none;} 
+#imgdownload.client_video_new_install .down-text .down-text2{font-size: 16px;line-height: 20px;float: none;}
+#imgdownload.client_video_new_install .progress-tip{height: 60px;line-height: 60px;}
+
+#imgdownload.client_video_new_downloading .down-icon { background-position:0px -25px }
+#imgdownload.client_video_new_downloading div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#B5D4F7),to(#AFD0F7));   }
+#imgdownload.client_video_new_downloading .down-text { color:#16375D }
+#imgdownload.client_video_new_downloading div.progress-value { position:absolute; left:0; top:52px; background: -webkit-gradient(linear, left top,left bottom, from(#a5caf6),to(#9dc1eb)); height:40px; border-radius:5px; width:90%;}
+#imgdownload.client_video_new_downloading div.progress-value { animation-name:animate-progress; animation-iteration-count:1; animation-timing-function:linear; animation-duration: 40s; -webkit-animation-name:animate-progress; -webkit-animation-iteration-count:1; -webkit-animation-timing-function:linear; -webkit-animation-duration:40s; }
+
+/*微视样式*/
+#imgdownload.client_weishi_new_tips .down-icon { background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/weishi_icon.png) no-repeat;background-size: 25px;}
+#imgdownload.client_weishi_new_tips div.progress  { background: -webkit-gradient(linear, left top,left bottom, from(#B5D4F7),to(#AFD0F7));   }
+#imgdownload.client_weishi_new_tips .down-text { color:#16375D }
+#imgdownload.client_weishi_new_install .down-icon { background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/download_success.png) no-repeat; background-size:35px 27px;width: 35px;height: 60px;background-position: center;}
+#imgdownload.client_weishi_new_install div.progress { background:#FF6600;height: 60px;}
+#imgdownload.client_weishi_new_install .down-text { color:#FFF;line-height: 0;text-align: left;}
+#imgdownload.client_weishi_new_install .down-text .down-text1{font-size: 16px;line-height: 20px;float: none;} 
+#imgdownload.client_weishi_new_install .down-text .down-text2{font-size: 16px;line-height: 20px;float: none;}
+#imgdownload.client_weishi_new_install .progress-tip{height: 60px;line-height: 60px;}
+
+#imgdownload.client_weishi_new_downloading .down-icon { background-position:0px -25px }
+#imgdownload.client_weishi_new_downloading div.progress { background: -webkit-gradient(linear, left top,left bottom, from(#B5D4F7),to(#AFD0F7));   }
+#imgdownload.client_weishi_new_downloading .down-text { color:#16375D }
+#imgdownload.client_weishi_new_downloading div.progress-value { position:absolute; left:0; top:52px; background: -webkit-gradient(linear, left top,left bottom, from(#a5caf6),to(#9dc1eb)); height:40px; border-radius:5px; width:90%;}
+#imgdownload.client_weishi_new_downloading div.progress-value { animation-name:animate-progress; animation-iteration-count:1; animation-timing-function:linear; animation-duration: 40s; -webkit-animation-name:animate-progress; -webkit-animation-iteration-count:1; -webkit-animation-timing-function:linear; -webkit-animation-duration:40s; }
+
+
+.arrow_box::after, .arrow_box::before { position:absolute; content:""; height:0; width: 0; pointer-events: none; border: solid transparent; }
+.arrow_box.bottom::after, .arrow_box.bottom::before { top: 100%; }
+.arrow_box.bottom::after { border-color: rgba(136, 183, 213, 0); border-top-color: #fff; border-width: 6px; left: 50%; margin-left: -6px; }
+.arrow_box.bottom::before { border-color: rgba(194, 225, 245, 0); border-top-color: #babbbb; border-width: 7px; left: 50%; margin-left: -7px; }
+
+.video_download { background:url(http://mat1.gtimg.com/www/images/newsapp/wechat/video_download.png) no-repeat -20px 0;}
+.other_new_tips { display:block; text-decoration:none; text-align:center; background-size:320px auto; height:94px; padding-top:9px; color:#000;  margin:0 auto; visibility:visible}
+.other_new_tips span { display:block; margin-top:12px; padding:0; }
+
+#DownloadTooltips .comment_slide_con{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#DownloadTooltips ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#DownloadTooltips ul li{
+	position: absolute;
+	top:10px;
+}
+
+#openNewsAppBanner{
+	display: none;
+	margin: 24px 16px 53px 16px;
+	position: relative;
+}
+
+#openNewsAppBanner .openBanner_tag{
+	background-color: #ede8e4;
+	color: #696969;
+	height: 15px;
+	line-height: 15px;
+	font-size: 15px;
+	margin-left: 62px;
+	text-indent: -62px;
+}
+#openNewsAppBanner .openBanner_comment{
+	list-style: none;
+	margin: 0;
+	padding: 21px 0 30px 0;
+}
+#openNewsAppBanner .openBanner_comment li{
+	position: relative;
+	min-height: 40px;
+}
+#openNewsAppBanner .openBanner_comment li .openBanner_comment_imgDiv{
+	position: absolute;
+	top: 0;
+	left: 16px;
+	height: 32px;
+	width: 32px;
+}
+#openNewsAppBanner .openBanner_comment li .openBanner_comment_imgDiv img {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 32px;
+	border-radius: 3px;
+}
+#openNewsAppBanner .openBanner_comment li .openBanner_comment_con{
+	margin: 0 5px 0 62px;
+	padding: 0;
+	font-size: 17px;
+	line-height: 25px;
+	text-align: left;
+}
+#openNewsAppBanner .openBanner_comment li .openBanner_comment_con span:nth-child(1){color: #000000;}
+#openNewsAppBanner .openBanner_comment li .openBanner_comment_con span:nth-child(2){color: #555454;}
+
+#openNewsAppBanner .openBanner_jump{
+	display: block;
+	background-color: #ede8e4;
+	height: 39px;
+	line-height: 39px;
+	font-size: 17px;
+	color: #2f6ad1;
+	text-align: center;
+}
+#openNewsAppBanner .openBanner_jump p{
+	display: inline-block;
+	margin: 0;
+	padding-right: 15px;
+	background: url(http://mat1.gtimg.com/www/images/newsapp/wechat/open-arrow.png) no-repeat;
+	background-size: 15px;
+	background-position: right center;
+}
+#openNewsAppBanner .openBanner_jump p span.less-comment{background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/comment_chili_v2.png) no-repeat;background-size: 11px 16px;background-position: center right;padding-right: 11px;}
+#openNewsAppBanner .openBanner_jump p span.more-comment{background:url(http://mat1.gtimg.com/www/images/newsapp/mqq/comment_2chili_v2.png) no-repeat;background-size: 18px 16px;background-position: center right;padding-right: 18px;}
+#openNewsAppBanner .openBanner_jump p span{position: relative;top: -1px;}
+
+/*事实+*/
+div.truthContainer {
+  margin: 20px 0px 20px 0px;
+}
+div.truthContainer div.truthHeader{
+  height: 19px;
+  width: 100%;
+  background:url(http://mat1.gtimg.com/www/images/newsapp/newsshare/truth_plus.png) no-repeat;
+  background-size: 163px 19px;
+  margin-bottom: 17px;
+}
+div.truthContainer div.truthBody{
+  padding-left: 15px;
+  border-left: 3px solid #e3e3e3;
+}
+/*事实+结束*/
+
+/** 相关新闻 **/
+.relatedNews{
+    position:relative;
+    margin: 0 15px 0 15px;
+}
+.rTitle{
+    background-color:#e3e3e3;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #4d4f51;
+    background-image: url(http://mat1.gtimg.com/www/images/newsapp/newsshare/relatedNews.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 5px center;
+    text-indent: 30px;
+    font-weight: bold;
+}
+ul.list{list-style:none;padding: 0; margin: 0;}
+ul.list li {
+    list-style:none; 
+    border-bottom: 1px solid #e2e2e2; 
+    
+  }
+ul.list li a {
+    display:block; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding: 8px 20px 16px 5px;
+    background-image: url(http://mat1.gtimg.com/www/images/newsapp/newsshare/arrow_icon.png);
+    background-repeat: no-repeat;
+    background-size: 7px 11px;
+    background-position: 98% center;
+}
+/*ul.list li a div{ margin: 0 17px; padding:15px 2px 15px 5px;}*/
+ul.list li a:link{color: #222;}
+ul.list li a.visited, ul.list li a:visited{color: #777;}
+ul.list li a:active {background-color: #e7e7e7;}
+ul.list li a.heightLight{ background:#e7e7e7; color: #222; }
+ul.list li a span { line-height:18px; vertical-align:middle; }
+ul.list li a img {vertical-align:middle; width:20px; height:20px; border:0}
+
+ul.list li a {
+  line-height:25px; font-size:17px;
+}
+ul.list li a span{
+  color:#999;
+  font-size:14px;
+}
+/*相关新闻结束*//*  |xGv00|634819acb394b7dc3c46951d44f22c72 */

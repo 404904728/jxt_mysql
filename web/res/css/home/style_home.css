@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+/* Wrappers & headers
+---------------------------------------------------------------------*/
+.wrapper,.wrapper-login {
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	/**width: 990px;*/
+	position: relative;
+}
+
+.wrapper-login {
+	width: 360px;
+}
+
+#top {
+	background-color: rgb(225, 225, 225);
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, rgb(213,
+		213, 213) ), color-stop(0.8, rgb(239, 239, 239) ) );
+	background: -moz-linear-gradient(linear, left bottom, rgb(213, 213, 213)
+		20%, rgb(239, 239, 239) 80% );
+}
+
+#top strong {
+	float: right;
+	color: #999;
+	margin-top: 12px;
+	font-size: 90%
+}
+
+#top strong a {
+	color: #2A7AD2;
+	padding: 0;
+	text-decoration: none;
+}
+
+/* Top navigation
+---------------------------------------------------------------------*/
+#topnav {
+	color: #999;
+	padding: 6px 20px 6px 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	white-space: nowrap;
+	font-size: 12px;
+	text-align: right;
+}
+
+#topnav span {
+	color: #444;
+}
+
+#topnav a {
+	color: #2A7AD2;
+	padding: 0;
+	text-decoration: none;
+}
+
+#topnav a.high {
+	color: #FFC806;
+	text-decoration: none;
+}
+
+#topnav a:hover,header#top aside a:hover,#topnav a:focus,header#top aside a:focus,#topnav a:active,header#top aside a:active
+	{
+	text-decoration: none;
+}
+
+#topnav small {
+	color: #666;
+	font-size: 11px;
+	text-align: right;
+}
+
+#topnav img.avatar {
+	background: #fff;
+	float: right;
+	margin: 5px 0 0 8px;
+	padding: 4px;
+}
+
+/* Main menu
+---------------------------------------------------------------------*/
+.sf-menu,.sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sf-menu {
+	line-height: 1.0;
+}
+
+.sf-menu li:hover {
+	background:red;
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+
+.sf-menu li {
+	float: left;
+	position: relative;
+}
+
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {
+	background:red;
+	left: 0;
+	top: 2.5em; /* match top ul list item height */
+	z-index: 99;
+}
+
+/*** menu skin ***/
+.sf-menu {
+	float: left;
+	font: 13px Arial;
+}
+.sf-menu a {
+	padding: .75em 1em;
+	text-decoration: none;
+}
+.sf-menu a,.sf-menu a:visited {
+	/* visited pseudo selector so IE6 applies text colour*/
+	/**color:#eee;*/
+	color: #0096c3;
+}
+
+.sf-menu li { 
+	background: white;
+	margin-right: 2px;
+}
+.sf-menu li:hover
+	{
+	background:#e1e1f9;
+	outline: 0;
+}
+
+.sf-menu>li {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+.sf-menu>li:hover,.sf-menu>li.sfHover,.sf-menu a:focus,.sf-menu a:hover,.sf-menu a:active
+	{
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+
+.sf-menu li.current { /**background: #266DBB;*/
+	background: #13a3ff
+}
+
+.sf-menu li.current a { /**background: #266DBB;*/
+	color: white;
+}
+
+#title {
+	color: #FFF;
+	font: bold 2.4em/ 26px 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	letter-spacing: -0.02em;
+	padding: 20px 0 22px;
+	text-shadow: 1px 1px 3px #111;
+}
+
+#title span {
+	color: #FFC806;
+}
+
+/**
+二级菜单
+**/
+/***********************************************************************************************/
+.submenu {
+	width: 100%;
+	height: 40px;
+	background-color: #e9e9e9;
+	clear: both;
+	float: left;
+}
+
+.submenu ul {
+	padding: 5px 0 5px 25px;
+	margin: 0px;
+	list-style: none;
+}
+
+.submenu ul li {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.submenu ul li a {
+	display: block;
+	float: left;
+	padding: 3px 6px 3px 6px;
+	color: #000;
+	text-decoration: none;
+	margin: 5px 4px 10px 0;
+	font-size: 12px;
+}
+
+.submenu ul li a.selected {
+	display: block;
+	float: left;
+	padding: 3px 6px 3px 6px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 5px 4px 8px 0;
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #366082;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.submenu ul li a:hover {
+	background-color: #366082;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}

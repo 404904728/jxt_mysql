@@ -1,0 +1,61 @@
+
+/*
+第0排
+*/
+.icon-color-up{
+    background:url('opa-icons-color16.png') no-repeat 0px 0px;
+}
+.icon-color-upright{
+    background:url('opa-icons-color16.png') no-repeat -16px 0px;
+}
+.icon-color-right{
+    background:url('opa-icons-color16.png') no-repeat -32px 0px;
+}
+.icon-color-rightdown{
+    background:url('opa-icons-color16.png') no-repeat -16px 0px;
+}
+.icon-color-down{
+    background:url('opa-icons-color16.png') no-repeat -16px 0px;
+}
+.icon-color-leftdown{
+    background:url('opa-icons-color16.png') no-repeat -16px 0px;
+}
+/*
+第5排
+*/
+.icon-color-house{
+    background:url('opa-icons-color16.png') no-repeat 0px -80px;
+}
+.icon-color-popel{
+    background:url('opa-icons-color16.png') no-repeat -16px -80px;
+}
+.icon-color-print{
+    background:url('opa-icons-color16.png') no-repeat -32px -80px;
+}
+/*
+第6排
+*/
+.icon-color-system{
+    background:url('opa-icons-color16.png') no-repeat 0px -96px;
+}
+.icon-color-repair{
+    background:url('opa-icons-color16.png') no-repeat -16px -96px;
+}
+.icon-color-lock{
+    background:url('opa-icons-color16.png') no-repeat -32px -96px;
+}
+.icon-color-unlock{
+    background:url('opa-icons-color16.png') no-repeat -48px -96px;
+}
+.icon-color-key{
+    background:url('opa-icons-color16.png') no-repeat -64px -96px;
+}
+.icon-color-book{
+    background:url('opa-icons-color16.png') no-repeat -80px -96px;
+}
+.icon-color-scissors{
+    background:url('opa-icons-color16.png') no-repeat -96px -96px;
+}
+.icon-color-pen{
+    background:url('opa-icons-color16.png') no-repeat -112px -96px;
+}
